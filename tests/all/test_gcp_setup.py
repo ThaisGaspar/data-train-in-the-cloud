@@ -70,4 +70,4 @@ class TestGcpSetup(TestBase):
         try:
             client.get_bucket(env_bucket_name, timeout=10)
         except:
-            assert False, f"Your bucket named after your .env variable 'BUCKET_NAME' ({env_bucket_name}) could not be found. "
+            assert False, f"Your bucket named after your .env variable 'BUCKET_NAME' ({taxifare_thaisgaspar}) could not be found. "
